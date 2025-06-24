@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Footer.css';
+import '../styles/footer.css';
 const handleEmail = () => {
   const emailInput = document.getElementById('userEmail');
   const userEmail = emailInput.value.trim();
