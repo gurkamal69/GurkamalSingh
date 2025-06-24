@@ -1,6 +1,6 @@
 // Skills.jsx
 import React from 'react';
-import '../styles/Skills.css';
+import '../styles/skills.css';
 
 function Skills() {
   const frontend = ["HTML", "CSS", "Bootstrap", "JavaScript", "React"];
