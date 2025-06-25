@@ -22,7 +22,8 @@ Frontend	Deployment	Version Control
 React.js	Vercel	Git & GitHub
 
 📸 Sneak Peek
-![portfolio](https://github.com/user-attachments/assets/07895204-bd3b-4fa7-8a93-1622cc279cfd)
+![image](https://github.com/user-attachments/assets/58597dc1-8c1b-43fb-93b6-9694024e95c2)
+
 
 
 🤝 Let's Connect
