@@ -95,3 +95,86 @@ border-bottom-left-radius: 50px;
 border-top-right-radius: 50px;
 border-bottom-right-radius: 50px;
 }
+
+
+
+
+/* Mobile (below 768px) */
+/* Tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 40px 30px;
+  }
+
+  .footer-left h2 {
+    font-size: 1.6rem;
+  }
+
+  .footer-nav {
+    gap: 20px;
+    font-size: 0.95rem;
+  }
+
+  .footer-right h3 {
+    font-size: 1.4rem;
+  }
+
+  .email-touch {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .email-touch input {
+    font-size: 1rem;
+    padding: 12px 16px;
+  }
+
+  .email-touch button {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+
+  .footer-socials a {
+    padding: 8px;
+    font-size: 1.6rem;
+  }
+}
+
+/* Mobile (below 768px) */
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 30px 20px;
+  }
+
+  .footer-left h2 {
+    font-size: 1.4rem;
+  }
+
+  .footer-nav {
+    gap: 15px;
+    font-size: 0.9rem;
+  }
+
+  .footer-right h3 {
+    font-size: 1.2rem;
+  }
+
+  .email-touch {
+    max-width: 100%;
+  }
+
+  .email-touch input {
+    font-size: 0.95rem;
+    padding: 10px 14px;
+  }
+
+  .email-touch button {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+
+  .footer-socials a {
+    padding: 7px;
+    font-size: 1.5rem;
+  }
+}
