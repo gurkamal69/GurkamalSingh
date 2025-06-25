@@ -1,15 +1,15 @@
 .recent-projects {
   padding: 4rem 1rem;
-  max-width: 100%;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .header h2 {
@@ -19,25 +19,22 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: clamp(1rem, 2vw, 1.5rem);
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
 .project-card {
-  width: 100%;
-  max-width: 350px;
-  min-height: 300px;
   background-color: rgba(255, 255, 255, 0.171);
   border-radius: 20px;
-  position: relative;
   padding: 1rem;
+  position: relative;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   color: #E6E6FA;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease;
+  max-width: 100%;
   box-sizing: border-box;
 }
 
@@ -46,7 +43,7 @@
   height: 200px;
   object-fit: cover;
   border-radius: 15px;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .project-card:hover .project-img {
@@ -82,9 +79,9 @@
   color: #E6E6FA;
   border: 1px solid black;
   border-radius: 50%;
-  width: clamp(40px, 10vw, 48px);
-  height: clamp(40px, 10vw, 48px);
-  font-size: clamp(1.5rem, 4vw, 1.8rem);
+  width: 44px;
+  height: 44px;
+  font-size: 1.6rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -94,20 +91,26 @@
 
 .project-arrow:hover {
   border: 1px solid #E6E6FA;
-  color: #E6E6FA;
 }
 
 .project-title {
   margin-top: 1rem;
-  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-size: 1.1rem;
   font-weight: 500;
   color: #E6E6FA;
 }
 
-/* Media Queries for Additional Responsiveness */
+/* === Media Queries === */
+
+/* Mobile (<600px) */
 @media (max-width: 600px) {
   .recent-projects {
-    padding: 2rem 0.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    padding: 0;
   }
 
   .project-card {
@@ -121,9 +124,38 @@
   .project-arrow {
     bottom: 60px;
     right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+  }
+
+  .tag {
+    font-size: 0.75rem;
+    padding: 5px 10px;
   }
 }
 
+/* Tablets (600px to 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
+
+  .project-img {
+    height: 200px;
+  }
+
+  .project-arrow {
+    bottom: 65px;
+    right: 12px;
+  }
+}
+
+/* Large Screens */
 @media (min-width: 1200px) {
   .projects-container {
     grid-template-columns: repeat(3, 1fr);
