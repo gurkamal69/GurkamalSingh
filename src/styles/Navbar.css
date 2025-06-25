@@ -1,24 +1,25 @@
+/* Base Sidebar Style – Keep as-is */
+
 .sidebar {
   width: auto;
   height: 60px;
   display: flex;
-  flex-direction: row; /* Horizontal layout */
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 20px; 
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #e6e6fa24;
   padding: 8px 30px;
   border-radius: 50px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   border: 2px solid #E6E6FA;
   backdrop-filter: blur(20px);
-
+  transition: all 0.3s ease;
 }
-
 
 .sidebar ul {
   display: flex;
@@ -26,14 +27,12 @@
   list-style: none;
   padding: 0;
   margin: 0;
-
 }
 
 .sidebar li a {
   text-decoration: none;
   color: #E6E6FA;
 }
-
 
 .sidebar a:hover {
   color: #ffffff;
@@ -43,4 +42,42 @@
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
+}
+
+/* ====================
+   📱 Mobile View 
+   ==================== */
+@media (max-width: 480px) {
+  .sidebar {
+    bottom: 10px;
+    padding: 6px 20px;
+  }
+
+  .sidebar ul {
+    gap: 5vw;
+  }
+
+  .sidebar li a img {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* ====================
+   📱 Tablet View 
+   ==================== */
+@media (min-width: 481px) and (max-width: 768px) {
+  .sidebar {
+    bottom: 15px;
+    padding: 6px 25px;
+  }
+
+  .sidebar ul {
+    gap: 6vw;
+  }
+
+  .sidebar li a img {
+    width: 24px;
+    height: 24px;
+  }
 }
