@@ -12,7 +12,7 @@ const projects = [
     title: 'Trucking',
     categories: ['Load', 'Real Estate'],
     image: '/Images/projects.png',
-    link: 'https://trucking.example.com',
+    link: '',
   },
   {
     title: 'VitaPlates',
