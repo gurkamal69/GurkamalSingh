@@ -3,8 +3,11 @@ import React from 'react';
 import '../styles/skills.css';
 
 function Skills() {
-  const frontend = ["HTML", "CSS", "Bootstrap", "JavaScript", "React"];
-  const backend = ["Node.js", "Express.js", "MySQL"];
+  // const frontend = ["HTML", "CSS", "Bootstrap", "JavaScript", "React"];
+  // const backend = ["Node.js", "Express.js", "MySQL"];
+  // const tools = ["Postman", "Vercel"];
+   const frontend = ["HTML", "CSS", "Bootstrap", "JavaScript", "React"];
+  const backend = ["Java", "MySQL"];
   const tools = ["Postman", "Vercel"];
 
   const renderSkill = (skill, index) => (
