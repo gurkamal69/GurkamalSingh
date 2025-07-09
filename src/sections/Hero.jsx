@@ -31,7 +31,6 @@ function Hero() {
             I'm a{' '}
             <span className="highlight">
               <Typewriter
-{/*                 words={['Web Developer', 'Designer']} */}
                 words={['Java Developer', 'Designer']}
 
                 loop={0} // 0 = infinite loop
