@@ -8,12 +8,12 @@ const projects = [
     image: '/Images/glinthive.png',
     link: 'https://www.glinthivecreations.com/',
   },
-  {
-    title: 'Trucking',
-    categories: ['Load', 'Real Estate'],
-    image: '/Images/projects.png',
-    link: '',
-  },
+  // {
+  //   title: 'Trucking',
+  //   categories: ['Load', 'Real Estate'],
+  //   image: '/Images/projects.png',
+  //   link: '',
+  // },
   {
     title: 'VitaPlates',
     categories: ['Meal Planner', 'Exercise'],
