@@ -31,7 +31,7 @@ function Hero() {
             I'm a{' '}
             <span className="highlight">
               <Typewriter
-                words={['Java Developer', 'Designer']}
+                words={['Web Developer', 'Designer']}
 
                 loop={0} // 0 = infinite loop
                 cursor
