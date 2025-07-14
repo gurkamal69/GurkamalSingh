@@ -3,12 +3,12 @@ import React from 'react';
 import '../styles/skills.css';
 
 function Skills() {
-  // const frontend = ["HTML", "CSS", "Bootstrap", "JavaScript", "React"];
-  // const backend = ["Node.js", "Express.js", "MySQL"];
-  // const tools = ["Postman", "Vercel"];
-  const frontend = ["HTML", "CSS", "Bootstrap", "React"];
-  const programming= ["Java", "JavaScript", "MySQL"];
+  const frontend = ["HTML", "CSS", "Bootstrap", "JavaScript", "React"];
+  const backend = ["Node.js", "Express.js", "MySQL"];
   const tools = ["Postman", "Vercel"];
+  // const frontend = ["HTML", "CSS", "Bootstrap", "React"];
+  // const programming= ["Java", "JavaScript", "MySQL"];
+  // const tools = ["Postman", "Vercel"];
 
   const renderSkill = (skill, index) => (
     <div className="pill-container" key={index}>
@@ -35,8 +35,8 @@ function Skills() {
           </p>
 
           <div className="skills-list">{frontend.map(renderSkill)}</div>
-{/*           <div className="skills-list">{backend.map(renderSkill)}</div> */}
-          <div className="skills-list">{programming.map(renderSkill)}</div>
+          <div className="skills-list">{backend.map(renderSkill)}</div>
+{/*           <div className="skills-list">{programming.map(renderSkill)}</div> */}
           <div className="skills-list">{tools.map(renderSkill)}</div>
         </div>
       </div>
