@@ -21,7 +21,7 @@ const projects = [
     link: 'https://vita-plates-7cvu.vercel.app/',
   },
   {
-    title: 'Gurkamal',
+    title: 'Portfolio',
     categories: ['Website', 'Portfolio'],
     image: '/Images/portfolio.png',
     link: 'https://portfolio.gurkamal.com',
