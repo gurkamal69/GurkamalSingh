@@ -11,12 +11,13 @@
   align-items: center;
   margin-bottom: 2rem;
   text-align: center;
+  color: #fff;
 }
 
 .header h2 {
   font-size: clamp(1.8rem, 5vw, 2.5rem);
   font-weight: 600;
-  color:white;
+  color: #fff;
 }
 
 .projects-container {
