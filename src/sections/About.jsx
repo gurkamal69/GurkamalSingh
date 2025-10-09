@@ -26,6 +26,10 @@ function About() {
         <strong>B.Tech (ECE)</strong> – Guru Nanak Dev University, Amritsar
         <span className="about-year">(2025)</span>
       </li>
+      <li>
+        <strong>M.Tech (CSE)</strong> – Chandigarh University, Chandigarh
+        <span className="about-year">(2027)</span>
+      </li>
     </ul>
   </div>
 
