@@ -32,9 +32,9 @@ Thanks for stopping by! If you liked what you saw or want to collaborate, feel f
 
 📧 Email: gurkamalin@gmail.com
 
-💼 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/gurkamal69/)
+💼 LinkedIn: [gurkamal69](https://www.linkedin.com/in/gurkamal69/)
 
-🐙 GitHub: [github.com/your-username](https://github.com/gurkamal69)
+🐙 GitHub: [gurkamal69](https://github.com/gurkamal69)
 
 📃 License
 This project is open-source under the MIT License.
