@@ -32,7 +32,7 @@ Thanks for stopping by! If you liked what you saw or want to collaborate, feel f
 
 📧 Email: gurkamalin@gmail.com
 
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/57f04541-2245-4872-b633-0dfa300b60f3" />
+<img width="12" height="12" alt="image" src="https://github.com/user-attachments/assets/996ad464-4aca-4e01-bf2a-3c686876276a" />
  LinkedIn: [gurkamal69](https://www.linkedin.com/in/gurkamal69/)
 
 🐙 GitHub: [gurkamal69](https://github.com/gurkamal69)
