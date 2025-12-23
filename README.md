@@ -35,7 +35,8 @@ Thanks for stopping by! If you liked what you saw or want to collaborate, feel f
 <img width="12" height="12" alt="image" src="https://github.com/user-attachments/assets/996ad464-4aca-4e01-bf2a-3c686876276a" />
  LinkedIn: [gurkamal69](https://www.linkedin.com/in/gurkamal69/)
 
-🐙 GitHub: [gurkamal69](https://github.com/gurkamal69)
+<img width="12" height="12" alt="image" src="https://github.com/user-attachments/assets/f4a4fa79-5255-4a3b-b415-3ab284391790" />
+ GitHub: [gurkamal69](https://github.com/gurkamal69)
 
 📃 License
 This project is open-source under the MIT License.
